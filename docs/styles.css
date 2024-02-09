@@ -1,0 +1,91 @@
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .corazon {
+    position: relative;
+    /*height: 200px;*/
+    width: 200px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #000;
+  
+  }
+  
+  .flower-image {
+    width: 100%;
+    /*height: 100%;*/
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .zoom-animation {
+    animation: pulsate 2s infinite;
+  }
+  
+  @keyframes pulsate {
+    0% {
+      transform: scale(1.5);
+    }
+    50% {
+      transform: scale(1.6);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  
+  .text-above,
+  .text-below {
+    width: 100%;
+    font-weight:bolder;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    
+  }
+  
+  .fasteracademy {
+    position: absolute;
+    text-align: center;
+    color: #ffffff0b;
+    font-size: 25px;
+    top: -120px;
+  }
+  
+  .text-above {
+    font-size: 45px;
+    top: -120px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Cambia la lista de fuentes según tus preferencias */
+
+  }
+  
+  .text-below {
+    bottom: -55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+  }
+  
+  .hola {
+    width: 0%;
+  }
+  
+  audio {
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
