@@ -2,7 +2,7 @@ body {
     background-color: #000;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,9 +56,9 @@ body {
   .fasteracademy {
     position: absolute;
     text-align: center;
-    color: #ffffff0b;
-    font-size: 25px;
-    top: -120px;
+    color: #ffffff78;
+    font-size: 10px;
+    top: 270px;
   }
   
   .text-above {
@@ -69,7 +69,7 @@ body {
   }
   
   .text-below {
-    bottom: -55px;
+    bottom: -60px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
 
